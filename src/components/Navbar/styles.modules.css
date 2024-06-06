@@ -1,0 +1,30 @@
+div {
+    width: 100vw;
+    height: 5vh;
+}
+
+ul {
+    background-color: rgb(92, 92, 92);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    display: inline;
+    padding: 14px 16px;
+    background-color: rgb(238, 110, 37);
+    border-right: 2px solid rgb(0, 0, 0);
+}
+
+li a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+li:hover {
+    background-color: rgb(218, 90, 17);
+}

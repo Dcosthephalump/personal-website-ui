@@ -1,0 +1,26 @@
+.centeringImage {
+    padding-block: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    /* background-color: rgb(162, 59, 231); */
+    /* background-image: linear-gradient(to bottom right, rgb(53, 53, 99), rgb(162, 59, 231)); */
+    background-image: url("/home/dc/nodeCode/personal-website-ui/public/galaxy.png")
+}
+
+.rectangle {
+    width: 75vw;
+    height: auto;
+    background: rgb(240 248 255 / 70%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30% 10% / 15% 35%;
+    box-shadow: 10px 10px 10px rgb(56, 56, 56);
+}
+
+.aboutme {
+    display: flex;
+    flex-flow: column;
+}
